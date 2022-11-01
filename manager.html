@@ -1,0 +1,72 @@
+<html>
+<head>
+    <style>
+        .div-inline {
+            white-space: nowrap;
+        }
+
+        .ml-8 {
+            margin-left: 8px;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+    <script src="jquery.min.js"></script>
+    <script src="content.js"></script>
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+
+</head>
+<body>
+<h2>Facebook Version</h2>
+<form name="facebookVersionForm">
+<label>
+    <input type="radio" name="facebookVersion" value="new"/> New
+</label>
+<label>
+    <input type="radio" name="facebookVersion" value="old"/> Old
+</label>
+</form>
+<h2>Monitor</h2>
+
+<table>
+    <tr>
+        <th>Ad Id</th>
+        <th>Status</th>
+        <th>Last Updated</th>
+    </tr>
+    <tbody id="tbody_monitor">
+<!--    <tr>-->
+<!--        <td>123</td>-->
+<!--        <td>-->
+<!--            <div class="div-inline"><img width="16px" height="16px" src="icons/like.png">1000-->
+<!--                <img class="ml-8" width="16px" height="16px" src="icons/heart.png">1000-->
+<!--                <img class="ml-8" width="16px" height="16px" src="icons/haha.png">1000-->
+<!--                <img class="ml-8" width="16px" height="16px" src="icons/wow.png">1000-->
+<!--                <img class="ml-8" width="24px" height="24px" src="icons/sad.jpg">1000-->
+<!--                <img class="ml-8" width="24px" height="24px" src="icons/angry.jpg">1000-->
+<!--            </div>-->
+<!--        </td>-->
+<!--        <td class="div-inline">2020-06-19 23:03:03</td>-->
+<!--    </tr>-->
+
+    </tbody>
+</table>
+</body>
+</html>
